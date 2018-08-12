@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+    
+  <url>
+    <loc>http://yoursite.com/2018/07/27/NUMPY/</loc>
+    <lastmod>2018-07-27T11:47:50.000Z</lastmod>
+    <data>
+        <display>
+        <title>NUMPY</title>
+        <pubTime>2018-07-27T11:32:08.000Z</pubTime>
+        
+        <tag>python</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+    
+  <url>
+    <loc>http://yoursite.com/2018/07/18/learning-materials/</loc>
+    <lastmod>2018-07-18T14:20:34.000Z</lastmod>
+    <data>
+        <display>
+        <title>learning_materials</title>
+        <pubTime>2018-07-18T14:07:53.000Z</pubTime>
+        
+        <tag>reference</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2018/07/17/BLACK%20BOX%20MACHINE%20LEARNING/</loc>
+    <lastmod>2018-07-17T15:02:40.000Z</lastmod>
+    <data>
+        <display>
+        <title>BLACK BOX MACHINE LEARNING</title>
+        <pubTime>2018-07-16T16:08:30.000Z</pubTime>
+        
+        <tag>ML</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+</urlset>
