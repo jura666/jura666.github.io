@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>What is dead may never die,</title>
+  
+  <subtitle>but rises again harder and stronger.</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2018-07-27T11:47:50.000Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>Jura</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>NUMPY</title>
+    <link href="http://yoursite.com/2018/07/27/NUMPY/"/>
+    <id>http://yoursite.com/2018/07/27/NUMPY/</id>
+    <published>2018-07-27T11:32:08.000Z</published>
+    <updated>2018-07-27T11:47:50.000Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">import numpy as np</span><br><span class="line">a = np.array([1, 2, 3, 4])</span><br><span class="line">b = np.array([4, 2, 2, 4])</span><br><span class="line">a == b</span><br><span class="line">array([False, True, False, True], type = bool)</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class
+      
+    
+    </summary>
+    
+    
+      <category term="python" scheme="http://yoursite.com/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>learning_materials</title>
+    <link href="http://yoursite.com/2018/07/18/learning-materials/"/>
+    <id>http://yoursite.com/2018/07/18/learning-materials/</id>
+    <published>2018-07-18T14:07:53.000Z</published>
+    <updated>2018-07-18T14:20:34.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="http://iissnan.com/progit/" target="_blank" rel="noopener">《pro git》</a><br><br><a href="https://themeisle.com/blog/start-a-personal-blog" target="_blank" rel="noopener">Complete Personal Blog Guide: How to Start a Personal Blog</a><br><br><a href="http://www.scipy-lectures.org/" target="_blank" rel="noopener">Scipy Lecture Notes</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;a href=&quot;http://iissnan.com/progit/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;《pro git》&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;a href=&quot;https://themeisle.com/blog/start-a-pers
+      
+    
+    </summary>
+    
+    
+      <category term="reference" scheme="http://yoursite.com/tags/reference/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>BLACK BOX MACHINE LEARNING</title>
+    <link href="http://yoursite.com/2018/07/17/BLACK%20BOX%20MACHINE%20LEARNING/"/>
+    <id>http://yoursite.com/2018/07/17/BLACK BOX MACHINE LEARNING/</id>
+    <published>2018-07-16T16:08:30.000Z</published>
+    <updated>2018-07-17T15:02:40.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="What-is-Machine-Learning-for"><a href="#What-is-Machine-Learning-for" class="headerlink" title="What is Machine Learning for?"></a>What is Machine Learning for?</h2><p>Common theme is to solve a prediction problem:</p><blockquote><p>give an input x,<br>predict an ‘appropriate’ output y.</p></blockquote><h3 id="Example-1-Spam-Detection"><a href="#Example-1-Spam-Detection" class="headerlink" title="Example 1:Spam Detection:"></a>Example 1:Spam Detection:</h3><blockquote><p>Input: Incoming email<br>Output: ‘SPAM’ or ‘NOT SPAM’</p></blockquote><p>A binary classification problem, because only 2 possible outputs.</p><h3 id="Example-2-Medical-Diagnosis"><a href="#Example-2-Medical-Diagnosis" class="headerlink" title="Example 2:Medical Diagnosis"></a>Example 2:Medical Diagnosis</h3><blockquote><p>Input: Symptoms(fever, cough, fast, breathing, shaking, nausea(恶心))<br>Output: Diagnosis(Pneumonia（肺炎）, flu, common cold, bronchitis(支气管炎)…)</p></blockquote><p>A multiclass classification problem: choosing one of several [discrete] outputs.</p><h4 id="How-to-express-uncertainty"><a href="#How-to-express-uncertainty" class="headerlink" title="How to express uncertainty?"></a>How to express uncertainty?</h4><p>Probabilistic classification or, soft classification:</p><p>  p(pneumonia) = 0.7</p><p>  p(flu) = 0.2</p><p>  …</p><h3 id="Example-Predicting-a-Stock-Price"><a href="#Example-Predicting-a-Stock-Price" class="headerlink" title="Example: Predicting a Stock Price"></a>Example: Predicting a Stock Price</h3><blockquote><p>Input: History of stocks prices<br>Output: Predict stock’s price at close of next day.</p></blockquote><p>A regression problem: because the output is number.</p><p>(Regression is not just ‘linear regression’ from basic statistic.)</p><h3 id="Rule-Based-Approach"><a href="#Rule-Based-Approach" class="headerlink" title="Rule-Based Approach"></a>Rule-Based Approach</h3><p><img src="https://i.imgur.com/lJbiHk4.png" alt="Rule-Based Approach"></p><p>Issues with rule-based systems:</p><ul><li>Very labor intensive to build</li><li>Rules work very well for areas they cover<ul><li>but cannot generalize to unanticipated input combinations</li></ul></li><li>Don’t naturally handle uncertainty.</li></ul><h3 id="Learning-from-trained-data-of-this-form-is-called-supervised-learning"><a href="#Learning-from-trained-data-of-this-form-is-called-supervised-learning" class="headerlink" title="Learning from trained data of this form is called supervised learning"></a>Learning from trained data of this form is called supervised learning</h3><h4 id="A-machine-Learning-algorithm"><a href="#A-machine-Learning-algorithm" class="headerlink" title="A machine Learning algorithm:"></a>A machine Learning algorithm:</h4><ul><li>Input: Training data</li><li>‘Learns’ from the training data</li><li>Output: A ‘prediction function’ that produces output y given input x.</li></ul><h3 id="Machine-Learning-Approach"><a href="#Machine-Learning-Approach" class="headerlink" title="Machine Learning Approach:"></a>Machine Learning Approach:</h3><p><img src="https://i.imgur.com/bo8wAQh.png" alt="MLApproach"></p><h4 id="Most-common-ML-problem-types"><a href="#Most-common-ML-problem-types" class="headerlink" title="Most common ML problem types:"></a>Most common ML problem types:</h4><ul><li>Classification</li><li>Multiclass</li><li><p>regression</p></li><li><p>Prediction function</p><ul><li>prediction output y given input x</li></ul></li><li>training data <ul><li>a set of(input x, output y) pairs</li></ul></li><li>supervised learning algorithm<ul><li>takes training data and produces prediction function</li></ul></li></ul><h2 id="Feature-Extraction"><a href="#Feature-Extraction" class="headerlink" title="Feature Extraction"></a>Feature Extraction</h2><h3 id="Definition"><a href="#Definition" class="headerlink" title="Definition:"></a>Definition:</h3><p>Mapping raw input x to Rd is called feature extraction or featurization.  </p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;What-is-Machine-Learning-for&quot;&gt;&lt;a href=&quot;#What-is-Machine-Learning-for&quot; class=&quot;headerlink&quot; title=&quot;What is Machine Learning for?&quot;&gt;&lt;/a&gt;W
+      
+    
+    </summary>
+    
+    
+      <category term="ML" scheme="http://yoursite.com/tags/ML/"/>
+    
+  </entry>
+  
+</feed>
