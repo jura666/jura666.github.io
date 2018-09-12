@@ -108,17 +108,17 @@
 
 
 
-  <meta name="description" content="personal blog">
+  <meta name="description" content="git remote    查看当前配置有哪些远程仓库git remote -v    (verbose首字母)显示对应的克隆地址 添加远程仓库git remote add [shortname] [url] 从远程仓库抓取数据到本地git fetch [remote-name] 手工合并 git pull如果设置了某个分支用于跟踪远端仓库的分支，可以使用    git pull自动抓取数据下来\">
 <meta property="og:type" content="article">
-<meta property="og:title" content="gitpro">
+<meta property="og:title" content="GITPRO之git常用命令">
 <meta property="og:url" content="http://yoursite.com/2018/09/04/gitpro/index.html">
 <meta property="og:site_name" content="What is dead may never die,">
-<meta property="og:description" content="personal blog">
+<meta property="og:description" content="git remote    查看当前配置有哪些远程仓库git remote -v    (verbose首字母)显示对应的克隆地址 添加远程仓库git remote add [shortname] [url] 从远程仓库抓取数据到本地git fetch [remote-name] 手工合并 git pull如果设置了某个分支用于跟踪远端仓库的分支，可以使用    git pull自动抓取数据下来\">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-09-04T05:40:03.619Z">
+<meta property="og:updated_time" content="2018-09-05T00:50:21.944Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="gitpro">
-<meta name="twitter:description" content="personal blog">
+<meta name="twitter:title" content="GITPRO之git常用命令">
+<meta name="twitter:description" content="git remote    查看当前配置有哪些远程仓库git remote -v    (verbose首字母)显示对应的克隆地址 添加远程仓库git remote add [shortname] [url] 从远程仓库抓取数据到本地git fetch [remote-name] 手工合并 git pull如果设置了某个分支用于跟踪远端仓库的分支，可以使用    git pull自动抓取数据下来\">
 
 
 
@@ -137,7 +137,7 @@
   };
 </script>
 
-  <title>gitpro | What is dead may never die,</title>
+  <title>GITPRO之git常用命令 | What is dead may never die,</title>
   
 
 
@@ -303,7 +303,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">gitpro
+          <h1 class="post-title" itemprop="name headline">GITPRO之git常用命令
               
             
           </h1>
@@ -331,6 +331,22 @@
               <time title="创建时间：2018-09-04 13:40:03" itemprop="dateCreated datePublished" datetime="2018-09-04T13:40:03+08:00">2018-09-04</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-09-05 08:50:21" itemprop="dateModified" datetime="2018-09-05T08:50:21+08:00">2018-09-05</time>
+              
             
           </span>
 
@@ -362,7 +378,44 @@
       
 
       
-        
+        <p><code>git remote</code>    查看当前配置有哪些远程仓库<br><code>git remote -v</code>    (verbose首字母)显示对应的克隆地址</p>
+<h4 id="添加远程仓库"><a href="#添加远程仓库" class="headerlink" title="添加远程仓库"></a>添加远程仓库</h4><p><code>git remote add [shortname] [url]</code></p>
+<h4 id="从远程仓库抓取数据到本地"><a href="#从远程仓库抓取数据到本地" class="headerlink" title="从远程仓库抓取数据到本地"></a>从远程仓库抓取数据到本地</h4><p><code>git fetch [remote-name]</code> 手工合并</p>
+<h4 id="git-pull"><a href="#git-pull" class="headerlink" title="git pull"></a>git pull</h4><p>如果设置了某个分支用于跟踪远端仓库的分支，可以使用    <code>git pull</code>自动抓取数据下来\自动合并</p>
+<p><code>git push [remote-name][branch-name]</code>  将本地仓库中的数据推送到远端仓库</p>
+<p><code>git remote show [remote-name]</code> 查看某个远端仓库的详细信息</p>
+<p><code>git remote rename</code>修改某个远端仓库在本地的简称</p>
+<p><code>git remote rm</code>移除对应的远端仓库</p>
+<hr>
+<h2 id="标签-tag"><a href="#标签-tag" class="headerlink" title="标签 tag"></a>标签 tag</h2><p>用<code>-a</code>(annotated首字母)指定标签名字<br>例如：<code>git tag -a v1.4 -m &#39;my version 1.4&#39;</code></p>
+<p><code>git show v1.4</code>查看相应标签的版本信息</p>
+<h5 id="签署标签"><a href="#签署标签" class="headerlink" title="签署标签"></a>签署标签</h5><p>如果有私钥，可以用GPG来签署标签，只要把之前的<code>-a</code>改为<code>-s</code>(signed的首字母)</p>
+<h4 id="轻量级标签"><a href="#轻量级标签" class="headerlink" title="轻量级标签"></a>轻量级标签</h4><p>不需要<code>-a</code> <code>-s</code> <code>-m</code>直接给出标签名字即可</p>
+<h4 id="验证标签"><a href="#验证标签" class="headerlink" title="验证标签"></a>验证标签</h4><p><code>git tag -v [tag-name]</code>(verify首字母)</p>
+<h4 id="后期加标签"><a href="#后期加标签" class="headerlink" title="后期加标签"></a>后期加标签</h4><p>在提交历史中 <code>$ git log --pretty = oneline</code><br>在打标签的时候跟上对应提交对象的校验和(或前几位字符)即可<br>例：<code>$git tag -a v1.2 9fceb02</code></p>
+<h4 id="分享标签"><a href="#分享标签" class="headerlink" title="分享标签"></a>分享标签</h4><p><code>git push origin [tagname]</code>推送一个 例：<code>git push origin v1.5</code><br>要一次推送所有本地新增的标签上去，使用<code>--tags</code>选项 例：<code>git push origin --tags</code></p>
+<p><code>git log</code>查看提交历史</p>
+<p><code>git log -p -2`</code>-p<code>展开显示每次提交内容的差异</code>-2`仅显示最近的两次更新</p>
+<hr>
+<h2 id="git分支"><a href="#git分支" class="headerlink" title="git分支"></a>git分支</h2><h4 id="何谓分支"><a href="#何谓分支" class="headerlink" title="何谓分支"></a>何谓分支</h4><p><code>git branch testing</code>在当前commit对象上新建一个分支指针testing</p>
+<p><code>git checkout</code>切换到其他分支</p>
+<p><code>$git checkout testing</code>这样HEAD就指向了testing指针</p>
+<p><code>$git checkout -b iss53</code>相当于</p>
+<blockquote>
+<p><code>git branch iss53</code><br><code>git checkout iss53</code></p>
+</blockquote>
+<h4 id="修补"><a href="#修补" class="headerlink" title="修补"></a>修补</h4><p><code>$git checkout -b hotfix</code><br>创建一个紧急修补分支<br><code>git checkout master</code><br><code>git merge hotfix</code>fast forward 简单地把指针右移<br><code>git branch -d hotfix</code>删除hotfix</p>
+<h4 id="分支的管理"><a href="#分支的管理" class="headerlink" title="分支的管理"></a>分支的管理</h4><p><code>git branch</code>给出分支清单<br><code>git branch -v</code>查看各个分支最后一个提交对象的信息<br><code>git branch --merged</code>查看哪些分支已被并入当前分支<br><code>git branch --no-merged</code>查看尚未合并的工作<br><code>git branch -d</code>删除未合并的分支会提示错误 <code>git branch -D</code>强制执行</p>
+<h4 id="利用分支进行开发的工作流程"><a href="#利用分支进行开发的工作流程" class="headerlink" title="利用分支进行开发的工作流程"></a>利用分支进行开发的工作流程</h4><p>常用分支名称：</p>
+<ul>
+<li><code>master</code></li>
+<li><code>develop</code></li>
+<li><code>topic</code>特性分支</li>
+<li><code>proposed</code>建议</li>
+<li><code>pu</code>proposed update，建议更新</li>
+</ul>
+<p><code>git fetch origin</code>同步远程服务器的数据到本地</p>
+
       
     </div>
 
@@ -398,6 +451,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2018/09/12/hero/" rel="prev" title="What is a hero in your heart?">
+                What is a hero in your heart? <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -446,8 +503,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -462,7 +528,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">4</span>
+                    <span class="site-state-item-count">5</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -483,7 +549,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">3</span>
+                      
+                    
+                    <span class="site-state-item-count">4</span>
                     <span class="site-state-item-name">标签</span>
                   
                 </div>
@@ -516,6 +584,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#添加远程仓库"><span class="nav-number">1.</span> <span class="nav-text">添加远程仓库</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#从远程仓库抓取数据到本地"><span class="nav-number">2.</span> <span class="nav-text">从远程仓库抓取数据到本地</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#git-pull"><span class="nav-number">3.</span> <span class="nav-text">git pull</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#标签-tag"><span class="nav-number"></span> <span class="nav-text">标签 tag</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#签署标签"><span class="nav-number">0.1.</span> <span class="nav-text">签署标签</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#轻量级标签"><span class="nav-number">1.</span> <span class="nav-text">轻量级标签</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#验证标签"><span class="nav-number">2.</span> <span class="nav-text">验证标签</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#后期加标签"><span class="nav-number">3.</span> <span class="nav-text">后期加标签</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#分享标签"><span class="nav-number">4.</span> <span class="nav-text">分享标签</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#git分支"><span class="nav-number"></span> <span class="nav-text">git分支</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#何谓分支"><span class="nav-number">1.</span> <span class="nav-text">何谓分支</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#修补"><span class="nav-number">2.</span> <span class="nav-text">修补</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#分支的管理"><span class="nav-number">3.</span> <span class="nav-text">分支的管理</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#利用分支进行开发的工作流程"><span class="nav-number">4.</span> <span class="nav-text">利用分支进行开发的工作流程</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       

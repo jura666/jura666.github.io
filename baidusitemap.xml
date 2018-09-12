@@ -4,11 +4,28 @@
 
     
   <url>
-    <loc>http://yoursite.com/2018/09/04/gitpro/</loc>
-    <lastmod>2018-09-04T05:40:03.619Z</lastmod>
+    <loc>http://yoursite.com/2018/09/12/hero/</loc>
+    <lastmod>2018-09-12T10:23:16.643Z</lastmod>
     <data>
         <display>
-        <title>gitpro</title>
+        <title>What is a hero in your heart?</title>
+        <pubTime>2018-09-12T10:22:17.000Z</pubTime>
+        
+        <tag>English</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2018/09/04/gitpro/</loc>
+    <lastmod>2018-09-05T00:50:21.944Z</lastmod>
+    <data>
+        <display>
+        <title>GITPRO之git常用命令</title>
         <pubTime>2018-09-04T05:40:03.000Z</pubTime>
         
          
@@ -34,7 +51,6 @@
     </data>
     </url>
 
-    
     
   <url>
     <loc>http://yoursite.com/2018/07/18/learning-materials/</loc>
