@@ -4,8 +4,25 @@
 
     
   <url>
+    <loc>http://yoursite.com/2018/09/12/courage/</loc>
+    <lastmod>2018-09-12T15:28:00.718Z</lastmod>
+    <data>
+        <display>
+        <title>What is courage in your opinoin?</title>
+        <pubTime>2018-09-12T10:28:57.000Z</pubTime>
+        
+        <tag>English</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/2018/09/12/hero/</loc>
-    <lastmod>2018-09-12T14:57:05.523Z</lastmod>
+    <lastmod>2018-09-12T15:26:30.194Z</lastmod>
     <data>
         <display>
         <title>What is a hero in your heart?</title>
@@ -18,23 +35,6 @@
              
               <breadCrumb title="English" url="http://yoursite.com/categories/English/"/>
           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/2018/09/12/courage/</loc>
-    <lastmod>2018-09-12T14:56:48.180Z</lastmod>
-    <data>
-        <display>
-        <title>What is courage in your opinoin?</title>
-        <pubTime>2018-09-12T10:28:57.000Z</pubTime>
-        
-        <tag>English</tag>
-         
-         
-           
         </display>
     </data>
     </url>
