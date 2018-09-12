@@ -3,11 +3,11 @@
   <title>What is dead may never die,</title>
   
   <subtitle>but rises again harder and stronger.</subtitle>
-  <link href="/blog/atom.xml" rel="self"/>
+  <link href="/atom.xml" rel="self"/>
   
-  <link href="http://nocturne.tech/blog/"/>
+  <link href="http://yoursite.com/"/>
   <updated>2018-09-12T10:40:52.319Z</updated>
-  <id>http://nocturne.tech/blog/</id>
+  <id>http://yoursite.com/</id>
   
   <author>
     <name>Jura</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>If you did favor for someone, would you like to let others know?</title>
-    <link href="http://nocturne.tech/blog/2018/09/12/help/"/>
-    <id>http://nocturne.tech/blog/2018/09/12/help/</id>
+    <link href="http://yoursite.com/2018/09/12/help/"/>
+    <id>http://yoursite.com/2018/09/12/help/</id>
     <published>2018-09-12T10:37:34.000Z</published>
     <updated>2018-09-12T10:40:52.319Z</updated>
     
@@ -35,14 +35,14 @@
     </summary>
     
     
-      <category term="English" scheme="http://nocturne.tech/blog/tags/English/"/>
+      <category term="English" scheme="http://yoursite.com/tags/English/"/>
     
   </entry>
   
   <entry>
     <title>What is courage in your opinoin?</title>
-    <link href="http://nocturne.tech/blog/2018/09/12/courage/"/>
-    <id>http://nocturne.tech/blog/2018/09/12/courage/</id>
+    <link href="http://yoursite.com/2018/09/12/courage/"/>
+    <id>http://yoursite.com/2018/09/12/courage/</id>
     <published>2018-09-12T10:28:57.000Z</published>
     <updated>2018-09-12T10:34:31.962Z</updated>
     
@@ -58,14 +58,14 @@
     </summary>
     
     
-      <category term="English" scheme="http://nocturne.tech/blog/tags/English/"/>
+      <category term="English" scheme="http://yoursite.com/tags/English/"/>
     
   </entry>
   
   <entry>
     <title>What is a hero in your heart?</title>
-    <link href="http://nocturne.tech/blog/2018/09/12/hero/"/>
-    <id>http://nocturne.tech/blog/2018/09/12/hero/</id>
+    <link href="http://yoursite.com/2018/09/12/hero/"/>
+    <id>http://yoursite.com/2018/09/12/hero/</id>
     <published>2018-09-12T10:22:17.000Z</published>
     <updated>2018-09-12T12:15:45.084Z</updated>
     
@@ -80,17 +80,17 @@
     
     </summary>
     
-      <category term="English" scheme="http://nocturne.tech/blog/categories/English/"/>
+      <category term="English" scheme="http://yoursite.com/categories/English/"/>
     
     
-      <category term="English" scheme="http://nocturne.tech/blog/tags/English/"/>
+      <category term="English" scheme="http://yoursite.com/tags/English/"/>
     
   </entry>
   
   <entry>
     <title>GITPRO之git常用命令</title>
-    <link href="http://nocturne.tech/blog/2018/09/04/gitpro/"/>
-    <id>http://nocturne.tech/blog/2018/09/04/gitpro/</id>
+    <link href="http://yoursite.com/2018/09/04/gitpro/"/>
+    <id>http://yoursite.com/2018/09/04/gitpro/</id>
     <published>2018-09-04T05:40:03.000Z</published>
     <updated>2018-09-05T00:50:21.944Z</updated>
     
@@ -111,8 +111,8 @@
   
   <entry>
     <title>NUMPY</title>
-    <link href="http://nocturne.tech/blog/2018/07/27/NUMPY/"/>
-    <id>http://nocturne.tech/blog/2018/07/27/NUMPY/</id>
+    <link href="http://yoursite.com/2018/07/27/NUMPY/"/>
+    <id>http://yoursite.com/2018/07/27/NUMPY/</id>
     <published>2018-07-27T11:32:08.000Z</published>
     <updated>2018-07-27T11:47:50.000Z</updated>
     
@@ -128,14 +128,14 @@
     </summary>
     
     
-      <category term="python" scheme="http://nocturne.tech/blog/tags/python/"/>
+      <category term="python" scheme="http://yoursite.com/tags/python/"/>
     
   </entry>
   
   <entry>
     <title>learning_materials</title>
-    <link href="http://nocturne.tech/blog/2018/07/18/learning-materials/"/>
-    <id>http://nocturne.tech/blog/2018/07/18/learning-materials/</id>
+    <link href="http://yoursite.com/2018/07/18/learning-materials/"/>
+    <id>http://yoursite.com/2018/07/18/learning-materials/</id>
     <published>2018-07-18T14:07:53.000Z</published>
     <updated>2018-07-18T14:20:34.000Z</updated>
     
@@ -151,14 +151,14 @@
     </summary>
     
     
-      <category term="reference" scheme="http://nocturne.tech/blog/tags/reference/"/>
+      <category term="reference" scheme="http://yoursite.com/tags/reference/"/>
     
   </entry>
   
   <entry>
     <title>BLACK BOX MACHINE LEARNING</title>
-    <link href="http://nocturne.tech/blog/2018/07/17/BLACK%20BOX%20MACHINE%20LEARNING/"/>
-    <id>http://nocturne.tech/blog/2018/07/17/BLACK BOX MACHINE LEARNING/</id>
+    <link href="http://yoursite.com/2018/07/17/BLACK%20BOX%20MACHINE%20LEARNING/"/>
+    <id>http://yoursite.com/2018/07/17/BLACK BOX MACHINE LEARNING/</id>
     <published>2018-07-16T16:08:30.000Z</published>
     <updated>2018-07-17T15:02:40.000Z</updated>
     
@@ -174,7 +174,7 @@
     </summary>
     
     
-      <category term="ML" scheme="http://nocturne.tech/blog/tags/ML/"/>
+      <category term="ML" scheme="http://yoursite.com/tags/ML/"/>
     
   </entry>
   
