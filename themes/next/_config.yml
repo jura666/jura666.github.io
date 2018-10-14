@@ -45,8 +45,8 @@ cache:
 # For example, you put your favicons into `hexo-site/source/images` directory.
 # Then need to rename & redefine they on any other names, otherwise icons from Next will rewrite your custom icons in Hexo.
 favicon:
-  small: /images/favicon-16x16-next.png
-  medium: /images/favicon-32x32-next.png
+  small: /images/curry.jpg
+  medium: /images/curry.jpg
   apple_touch_icon: /images/apple-touch-icon-next.png
   safari_pinned_tab: /images/logo.svg
   #android_manifest: /images/manifest.json
@@ -119,7 +119,7 @@ index_with_subtitle: false
 menu:
   home: / || home
   #about: /about/ || user
-  #tags: /tags/ || tags
+  tags: /tags/ || tags
   #categories: /categories/ || th
   archives: /archives/ || archive
   #schedule: /schedule/ || calendar
@@ -138,8 +138,8 @@ menu_settings:
 # Schemes
 #scheme: Muse
 #scheme: Mist
-scheme: Pisces
-#scheme: Gemini
+#scheme: Pisces
+scheme: Gemini
 
 
 # ---------------------------------------------------------------
@@ -190,17 +190,17 @@ links_layout: block
   #Title: http://example.com/
 
 # Sidebar Avatar
-avatar:
+avatar: /images/curry.jpg
   # in theme directory(source/images): /images/avatar.gif
   # in site  directory(source/uploads): /uploads/avatar.gif
   # You can also use other linking images.
-  url: #/images/avatar.gif
+  #url: /images/curry.jpg
   # If true, the avatar would be dispalyed in circle.
-  rounded: false
+rounded: false
   # The value of opacity should be choose from 0 to 1 to set the opacity of the avatar.
-  opacity: 1
+opacity: 1
   # If true, the avatar would be rotated with the cursor.
-  rotated: false
+rotated: true
 
 # Table Of Contents in the Sidebar
 toc:
@@ -957,6 +957,9 @@ vendors:
   # Example: https://cdn.jsdelivr.net/npm/valine@1.1.8/dist/Valine.min.js
   valine:
 
+# 文章末尾添加“本文结束”标记
+passage_end_tag:
+enabled: true
 
 # Assets
 css: css
